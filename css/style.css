@@ -57,7 +57,9 @@ a { color:#333; text-decoration: none; }
 #logo h1 { font-size:36px; line-height: 0.8em; }
 #logo p { font-size:23px; display:block; margin-top:8px; }
 #call-us h2, #interests h3 { font-size: 18px; }
-#call-us strong { font-size: 30px; margin-left:10px; line-height: 1em; display: inline-block;}
+
+#nuget-logo { font-size: 30px; line-height: 1em; margin-top: -35px; margin-right: -10px; display: inline-block;}
+
 #interests { padding: 35px 40px; position:relative; z-index:1; }
 #interests > div#interests-texts { width:220px; float:left;}
 #interests h3:after {
