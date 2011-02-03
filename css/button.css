@@ -1,0 +1,200 @@
+@charset "utf-8";
+#buttons .button { margin: 10px 10px 0 0; }
+#buttons h3 { margin-bottom:30px; }
+button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
+button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
+button, .button { overflow:visible; width:auto; border:0; padding:0; margin:0; background-color: transparent; cursor:pointer; display:inline-block;   }
+button span, .button span { display: inline-block; white-space: nowrap; cursor: pointer}
+
+.button span { background-image: url(../images/btn-small.png); background-repeat: no-repeat; color:#fff; text-transform:uppercase;}
+.button > span { padding-left: 20px; background-position: left top;}
+.button > span > span { background-position: right top;}
+
+.buttons .button { margin: 0 5px 5px 0; }
+
+.button.small span { background-image: url(../images/btn-small.png);}
+.button.small > span > span { font-size: 12px; line-height:39px; padding-right: 55px; padding-bottom: 2px; }
+
+.button.small.slateblue > span { background-position: left top;}
+.button.small.slateblue > span > span { position: right top; }
+
+.button.small.camel > span  { background-position: left -41px;}
+.button.small.camel > span > span  { background-position: right -41px;}
+
+.button.small.coffee > span  { background-position: left -82px;}
+.button.small.coffee > span > span  { background-position: right -82px;}
+
+.button.small.darkgreen > span  { background-position: left -123px;}
+.button.small.darkgreen > span > span  { background-position: right -123px;}
+
+.button.small.darkred > span  { background-position: left -164px;}
+.button.small.darkred > span > span  { background-position: right -164px;}
+
+.button.small.darkpurple > span  { background-position: left -205px;}
+.button.small.darkpurple > span > span  { background-position: right -205px;}
+
+.button.small.green > span  { background-position: left -246px;}
+.button.small.green > span > span  { background-position: right -246px;}
+
+.button.small.darkyellow > span  { background-position: left -287px;}
+.button.small.darkyellow > span > span  { background-position: right -287px;}
+
+.button.small.lightblue > span  { background-position: left -328px;}
+.button.small.lightblue > span > span  { background-position: right -328px;}
+
+.button.small.lightgreen > span  { background-position: left -369px;}
+.button.small.lightgreen > span > span  { background-position: right -369px;}
+
+.button.small.ochre > span  { background-position: left -410px;}
+.button.small.ochre > span > span  { background-position: right -410px;}
+
+.button.small.blue > span  { background-position: left -451px;}
+.button.small.blue > span > span  { background-position: right -451px;}
+
+.button.small.greymetal > span  { background-position: left -492px;}
+.button.small.greymetal > span > span  { background-position: right -492px;}
+
+.button.small.skyblue > span  { background-position: left -533px;}
+.button.small.skyblue > span > span  { background-position: right -533px;}
+
+.button.small.grey > span  { background-position: left -574px;}
+.button.small.grey > span > span  { background-position: right -574px;}
+
+.button.small.red > span  { background-position: left -615px;}
+.button.small.red span > span  { background-position: right -615px;}
+
+.button.small.yellow > span  { background-position: left -656px;}
+.button.small.yellow > span > span  { background-position: right -656px;}
+
+.button.small.purple > span  { background-position: left -697px;}
+.button.small.purple > span > span  { background-position: right -697px;}
+
+
+
+.button.medium span { background-image: url(../images/btn-medium.png);}
+.button.medium > span > span { font-size: 15px; line-height:55px; padding-right: 75px; padding-bottom: 2px; }
+
+
+.button.medium.slateblue > span { background-position: left top;}
+.button.medium.slateblue > span > span { position: right top; }
+
+.button.medium.camel > span  { background-position: left -57px;}
+.button.medium.camel > span > span  { background-position: right -57px;}
+
+.button.medium.coffee > span  { background-position: left -114px;}
+.button.medium.coffee > span > span  { background-position: right -114px;}
+
+.button.medium.darkgreen > span  { background-position: left -171px;}
+.button.medium.darkgreen > span > span  { background-position: right -171px;}
+
+.button.medium.darkred > span  { background-position: left -228px;}
+.button.medium.darkred > span > span  { background-position: right -228px;}
+
+.button.medium.darkpurple > span  { background-position: left -285px;}
+.button.medium.darkpurple > span > span  { background-position: right -285px;}
+
+.button.medium.green > span  { background-position: left -342px;}
+.button.medium.green > span > span  { background-position: right -342px;}
+
+.button.medium.darkyellow > span  { background-position: left -399px;}
+.button.medium.darkyellow > span > span  { background-position: right -399px;}
+
+.button.medium.lightblue > span  { background-position: left -456px;}
+.button.medium.lightblue > span > span  { background-position: right -456px;}
+
+.button.medium.lightgreen > span  { background-position: left -513px;}
+.button.medium.lightgreen > span > span  { background-position: right -513px;}
+
+.button.medium.ochre > span  { background-position: left -570px;}
+.button.medium.ochre > span > span  { background-position: right -570px;}
+
+.button.medium.blue > span  { background-position: left -627px;}
+.button.medium.blue > span > span  { background-position: right -627px;}
+
+.button.medium.greymetal > span  { background-position: left -684px;}
+.button.medium.greymetal > span > span  { background-position: right -684px;}
+
+.button.medium.skyblue > span  { background-position: left -741px;}
+.button.medium.skyblue > span > span  { background-position: right -741px;}
+
+.button.medium.grey > span  { background-position: left -798px;}
+.button.medium.grey > span > span  { background-position: right -798px;}
+
+.button.medium.red > span  { background-position: left -855px;}
+.button.medium.red span > span  { background-position: right -855px;}
+
+.button.medium.yellow > span  { background-position: left -912px;}
+.button.medium.yellow > span > span  { background-position: right -912px;}
+
+.button.medium.purple > span  { background-position: left -969px;}
+.button.medium.purple > span > span  { background-position: right -969px;}
+
+
+
+
+.button.large span { background-image: url(../images/btn-large.png);}
+.button.large span > span {font-size: 17px; line-height:69px; padding-right: 85px; padding-bottom: 1px; }
+
+.button.large.slateblue > span { background-position: left top;}
+.button.large.slateblue > span > span { position: right top; }
+
+.button.large.camel > span  { background-position: left -70px;}
+.button.large.camel > span > span  { background-position: right -70px;}
+
+.button.large.coffee > span  { background-position: left -140px;}
+.button.large.coffee > span > span  { background-position: right -140px;}
+
+.button.large.darkgreen > span  { background-position: left -210px;}
+.button.large.darkgreen > span > span  { background-position: right -210px;}
+
+.button.large.darkred > span  { background-position: left -280px;}
+.button.large.darkred > span > span  { background-position: right -280px;}
+
+.button.large.darkpurple > span  { background-position: left -350px;}
+.button.large.darkpurple > span > span  { background-position: right -350px;}
+
+.button.large.green > span  { background-position: left -420px;}
+.button.large.green > span > span  { background-position: right -420px;}
+
+.button.large.darkyellow > span  { background-position: left -490px;}
+.button.large.darkyellow > span > span  { background-position: right -490px;}
+
+.button.large.lightblue > span  { background-position: left -560px;}
+.button.large.lightblue > span > span  { background-position: right -560px;}
+
+.button.large.lightgreen > span  { background-position: left -630px;}
+.button.large.lightgreen > span > span  { background-position: right -630px;}
+
+.button.large.ochre > span  { background-position: left -700px;}
+.button.large.ochre > span > span  { background-position: right -700px;}
+
+.button.large.blue > span  { background-position: left -770px;}
+.button.large.blue > span > span  { background-position: right -770px;}
+
+.button.large.greymetal > span  { background-position: left -840px;}
+.button.large.greymetal > span > span  { background-position: right -840px;}
+
+.button.large.skyblue > span  { background-position: left -910px;}
+.button.large.skyblue > span > span  { background-position: right -910px;}
+
+.button.large.grey > span  { background-position: left -980px;}
+.button.large.grey > span > span  { background-position: right -980px;}
+
+.button.large.red > span  { background-position: left -1050px;}
+.button.large.red span > span  { background-position: right -1050px;}
+
+.button.large.yellow > span  { background-position: left -1120px;}
+.button.large.yellow > span > span  { background-position: right -1120px;}
+
+.button.large.purple > span  { background-position: left -1190px;}
+.button.large.purple > span > span  { background-position: right -1190px;}
+
+
+
+
+.button.small.commonBtn > span { background-position: left top;}
+.button.small.commonBtn > span > span { position: right top; }
+.button.medium.commonBtn > span { background-position: left top;}
+.button.medium.commonBtn > span > span { position: right top; }
+.button.large.commonBtn > span { background-position: left top;}
+.button.large.commonBtn > span > span { position: right top; }
