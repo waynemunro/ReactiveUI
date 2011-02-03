@@ -20,12 +20,20 @@
 	font-weight: normal;
 	font-style: normal;
 }
-#logo h1, #call-us h2, #interests h3, #features h3, #call-to-action h3, #buttons h3, #contact-form h4, #contact-form label, #success-msg h1 {
+#logo #call-us h2, #interests h3, #features h3, #call-to-action h3, #buttons h3, #contact-form h4, #contact-form label, #success-msg h1 {
 	 font-family: 'ChunkFiveRegular', sans-serif;
 	 text-transform: uppercase;
 	 font-weight: normal;
 	 font-style: normal;
 }
+
+#logo h1 a {
+	 font-family: 'ChunkFiveRegular', sans-serif;
+   font-size:64px;
+	 font-weight: normal;
+	 font-style: normal;
+}
+
 #logo p {
 	 font-family: 'JournalRegular', sans-serif;
 	 font-weight: normal;
