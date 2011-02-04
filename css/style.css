@@ -133,3 +133,33 @@ a { color:#333; text-decoration: none; }
 	zoom:1;
 }
 
+
+/* Styles for the entire LavaLamp menu */
+.menu {
+    position: absolute;
+    vertical-align: center;
+    top: -30px;
+    width: 888px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+/* Force the list to flow horizontally */
+.menu li {
+float: left;
+list-style: none;
+}
+
+/* Styles for each menu-item. */
+.menu li a {
+    position: relative; overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold 14px arial;
+    color: #fff; outline: none;
+    text-align: center;
+    height: 30px; top: 7px;
+    z-index: 10; letter-spacing: 0;
+    float: left; display: block;
+    margin: auto 10px;
+}
